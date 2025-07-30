@@ -91,6 +91,12 @@ const menuItems = [
     fullText: 'Hóa đơn',
     icon: <InvoiceIcon />,
     path: '/invoices'
+  },
+  {
+    text: 'Liên hệ',
+    fullText: 'Quản lý liên hệ',
+    icon: <PeopleIcon />,
+    path: '/contacts'
   }
 ];
 

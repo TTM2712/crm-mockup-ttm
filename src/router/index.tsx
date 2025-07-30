@@ -13,6 +13,7 @@ const ContractManagement = lazy(() => import('../pages/ContractManagement/index'
 const ContractAppendices = lazy(() => import('../pages/ContractAppendices/index'));
 const AcceptanceManagement = lazy(() => import('../pages/AcceptanceManagement/index'));
 const InvoiceManagement = lazy(() => import('../pages/InvoiceManagement/index'));
+const ContactManagement = lazy(() => import('../pages/Contact'));
 const Settings = lazy(() => import('../pages/Settings/index'));
 const Login = lazy(() => import('../pages/Login/index'));
 const PerformanceTest = lazy(() => import('../pages/PerformanceTest/index'));
@@ -51,6 +52,7 @@ const AppRouter = () => {
     { path: 'contract-appendices', element: <LazyRoute element={ContractAppendices} /> },
     { path: 'acceptance', element: <LazyRoute element={AcceptanceManagement} /> },
     { path: 'invoices', element: <LazyRoute element={InvoiceManagement} /> },
+    { path: 'contacts', element: <LazyRoute element={ContactManagement} /> },
     { path: 'settings', element: <LazyRoute element={Settings} /> },
     { path: 'performance-test', element: <LazyRoute element={PerformanceTest} /> },
     { path: 'assistant', element: <LazyRoute element={Assistant} /> },
