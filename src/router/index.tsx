@@ -13,7 +13,7 @@ const ContractManagement = lazy(() => import('../pages/ContractManagement/index'
 const ContractAppendices = lazy(() => import('../pages/ContractAppendices/index'));
 const AcceptanceManagement = lazy(() => import('../pages/AcceptanceManagement/index'));
 const InvoiceManagement = lazy(() => import('../pages/InvoiceManagement/index'));
-const ContactManagement = lazy(() => import('../pages/Contact'));
+const ContactManagement = lazy(() => import('../pages/Contact/index'));
 const Settings = lazy(() => import('../pages/Settings/index'));
 const Login = lazy(() => import('../pages/Login/index'));
 const PerformanceTest = lazy(() => import('../pages/PerformanceTest/index'));
